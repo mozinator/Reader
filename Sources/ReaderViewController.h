@@ -43,5 +43,6 @@
 
 - (instancetype)initWithReaderDocument:(ReaderDocument *)object;
 - (void)showDocumentPage:(NSInteger)page;
+- (NSInteger)currentPage;
 
 @end

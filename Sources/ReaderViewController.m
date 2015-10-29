@@ -85,6 +85,11 @@
 
 #pragma mark - ReaderViewController methods
 
+- (NSInteger)currentPage
+{
+    return currentPage;
+}
+
 - (void)updateContentSize:(UIScrollView *)scrollView
 {
 	CGFloat contentHeight = scrollView.bounds.size.height; // Height
