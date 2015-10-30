@@ -257,6 +257,8 @@
 		[mainToolbar setBookmarkState:[document.bookmarks containsIndex:page]];
 
 		[mainPagebar updatePagebar]; // Update page bar
+        
+        [delegate readerViewController:self documentPageShown:page];
 	}
 }
 
